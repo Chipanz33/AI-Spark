@@ -5,7 +5,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-10 px-4">
       <div className="w-full max-w-xl">
         <div className="mb-8">
-          <img src="/Logo2026.png" alt="Q·nomy" className="h-10 mb-5" />
+          <img src={`${import.meta.env.BASE_URL}Logo2026.png`} alt="Q·nomy" className="h-10 mb-5" />
           <h1 className="text-navy text-2xl font-bold tracking-tight">AI Spark</h1>
           <p className="text-navy-muted text-sm mt-1">Employee Idea Submission Portal</p>
           <div className="border-b-2 border-brand mt-4" />
