@@ -16,7 +16,7 @@ function Spinner() {
 export default function ProposalForm() {
   const [fields, setFields] = useState(EMPTY_FIELDS);
   const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState('idle');
+  const [status, setStatus] = useState('idle'); // idle | loading | success | error
   const [errMsg,  setErrMsg]  = useState('');
 
   function update(key, val) {
